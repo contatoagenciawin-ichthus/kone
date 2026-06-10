@@ -50,6 +50,12 @@
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/maquinas",
+      "regex": "^/maquinas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/maquinas(?:/)?$"
     }
   ],
   "dataRoutes": [],

@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navItems = [
-  { label: "Sobre", href: "#sobre" },
-  { label: "Máquinas", href: "#maquinas" },
-  { label: "Portfólio", href: "#produtos" },
-  { label: "Educação", href: "#educacao" },
-  { label: "Serviços", href: "#servicos" },
+  { label: "Sobre", href: "/#sobre" },
+  { label: "Máquinas", href: "/maquinas" },
+  { label: "Portfólio", href: "/#produtos" },
+  { label: "Educação", href: "/#educacao" },
+  { label: "Serviços", href: "/#servicos" },
 ];
 
 export function Header() {
@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 h-14 border-b border-black/10 bg-[#F5F4F0]/95 backdrop-blur">
       <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-5 md:px-12 lg:px-20">
-        <Link href="#hero" className="flex items-center">
+        <Link href="/#hero" className="flex items-center">
           <Image
             src="/machines/logo.png"
             alt="Kone Máquinas"
